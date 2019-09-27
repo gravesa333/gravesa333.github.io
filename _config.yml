@@ -1,0 +1,38 @@
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:               Andrew Graves
+tagline:             A Super Awesome Data Science Blog
+url:                 https://github.com/gravesa333/gravesa333.github.io
+paginate:            2
+baseurl:             ""
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Andrew Graves
+  url:               https://www.linkedin.com/in/andrewgraves33/
+  email:             gravesa333@gmail.com
+
+# Custom vars
+version:             2.0.0
+github:
+  repo:              https://https://github.com/gravesa333
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+
+# Page List
+pages_list:       
+  About: '/about'
+  Archive: '/archive'
+  Feed: '/index.html'
